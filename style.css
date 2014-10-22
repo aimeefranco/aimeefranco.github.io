@@ -4,7 +4,7 @@
 }
 
 h1 {
-	font-family: Courier;
+	font-family: "Courier New";
 	font-size: 2em;
 	color: white;
 	margin-left: 25px;
@@ -12,7 +12,7 @@ h1 {
 }
 
 h2 {
-	font-family: Courier;
+	font-family: "Courier New";
 	font-size: 2em;
 	font-weight: .5;
 	color: #606060;
@@ -20,7 +20,7 @@ h2 {
 }
 
 p {
-	font-family: Courier;
+	font-family: "Courier New";
 	font-size: 1em;
 	color: #606060;
 	text-align: center;
