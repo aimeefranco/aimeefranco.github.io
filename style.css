@@ -1,14 +1,21 @@
 h1 {
 	font-family: Courier;
 	font-size: 2.5em;
-	font-weight: 2;
+	font-weight: 1;
 	color: #303030;
 }
 
 h2 {
 	font-family: Courier;
 	font-size: 2em;
-	font-weight: 1;
+	font-weight: .5;
 	color: #606060;
 	text-align: center;
+}
+
+p {
+	font-family: Courier;
+	font-size: 1em;
+	color: #606060;
+	max-width: 600px;
 }
