@@ -17,5 +17,6 @@ p {
 	font-family: Courier;
 	font-size: 1em;
 	color: #606060;
+	text-align: center;
 	max-width: 600px;
 }
