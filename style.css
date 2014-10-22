@@ -1,6 +1,6 @@
-div.header {
-	background-size: 100px 100px;
-	background-color: black;
+div {
+	background-size: 200px 200px;
+	background-color: #606060;
 }
 
 h1 {
