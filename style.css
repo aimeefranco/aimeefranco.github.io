@@ -3,6 +3,8 @@ h1 {
 	font-size: 2.5em;
 	font-weight: 1;
 	color: #303030;
+	background-size: 300px 200px;
+	background-color: #909090 ;
 }
 
 h2 {
