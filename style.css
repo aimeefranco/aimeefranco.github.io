@@ -1,6 +1,6 @@
 #background {
 	height: 80px;
-	background-color: #606060;
+	background-color: black;
 }
 
 h1 {
@@ -15,14 +15,14 @@ h2 {
 	font-family: "Courier New";
 	font-size: 2em;
 	font-weight: .5;
-	color: #606060;
+	color: black;
 	text-align: center;
 }
 
 p {
 	font-family: "Courier New";
 	font-size: 1em;
-	color: #606060;
+	color: black;
 	text-align: center;
 	margin-left: 100px;
 	margin-right: 100px;
