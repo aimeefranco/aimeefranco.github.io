@@ -17,9 +17,29 @@
 
 h1 {
 	font-family: "Courier New";
+	font-size: 2em;
 	color: white;
 	margin-left: 25px;
 	padding-top: 9px;
+}
+
+nav{
+	margin-top: .1%;
+	margin-bottom: .1%;
+	background-color: black;
+	margin-left: 30%;
+	height: 25px;
+}
+
+li{
+	list-style-type: none;
+	color: white;
+	font-family: "Helvetica-light";
+	display: inline;
+	padding-left: 5%;
+	padding-top: 1%;
+	font-size: .75em;
+	vertical-align: middle;
 }
 
 .button {
@@ -37,9 +57,7 @@ h1 {
 }
 
 /**{
-	border-style: dashed;
-	border-width: 1px;
-	border-color: black;
+	border: 1px dashed red;
 }*/
 
 h2 {
