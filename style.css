@@ -1,6 +1,7 @@
 
 body {
 	background-color: black;
+	margin: 0;
 }
 
 h1 {
@@ -31,24 +32,30 @@ h2 {
 	float: left;
 }
 
+.midcontainer {
+	background-color: #CCEBF5;
+
+}
+
 h3 {
 	font-family: 'Bitter', serif;
 	font-style: italic;
-	color: white;
+	color: #090A0A;
 	font-size: 1.5em;
 	text-align: center;
 	margin-top: 250px;
+	padding-top: 5%;
 }
 
 #about {
 	font-family: 'Bitter', serif;
 	font-style: italic;
-	color: white;
-	font-size: .9em;
+	color: #090A0A;
+	font-size: 1em;
 	text-align: center;
 	display: block;
 	margin: 0 20%;
-	padding-bottom: 40%;
+	padding-bottom: 30%;
 
 }
 
