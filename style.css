@@ -1,78 +1,53 @@
-#background {
-	height: 50px;
+
+body {
 	background-color: black;
-}
-
-#linkedin {
-	position:absolute;
-	top: 28px;
-	right: 80px;
-}
-
-#twitter {
-	position:absolute;
-	top: 28px;
-	right: 40px;
 }
 
 h1 {
-	font-family: "Courier New";
-	font-size: 2em;
+	font-family: 'Bitter', serif;
 	color: white;
-	margin-left: 25px;
-	padding-top: 9px;
+	font-size: 2.2em;
+	line-height: .8;
+	text-align: center;
+	padding-top: 18%;
 }
 
-nav{
-	margin-top: .1%;
-	margin-bottom: .1%;
-	background-color: black;
-	margin-left: 30%;
-	height: 25px;
-}
-
-li{
-	list-style-type: none;
+h2 {
+	font-family: 'Bitter', serif;
 	color: white;
-	font-family: "Helvetica-light";
-	display: inline;
-	padding-left: 5%;
-	padding-top: 1%;
-	font-size: .75em;
-	vertical-align: middle;
+	font-size: 1.2em;
+	text-align: center;
+	line-height: .2;
+
 }
 
-.button {
-	width: 35%;
+#socialmedia{ 
+	width: 80px;
+	margin: -.2% auto;
+	position: relative;
 }
 
-#uxid {
-	margin-top: 10%;
-	padding-left: 23%;
+#linkedin{
+	float: left;
+}
 
+h3 {
+	font-family: 'Bitter', serif;
+	font-style: italic;
+	color: white;
+	font-size: 1.5em;
+	text-align: center;
+	margin-top: 250px;
 }
 
 #about {
-	margin: 0 auto;
-}
-
-/**{
-	border: 1px dashed red;
-}*/
-
-h2 {
-	font-family: "Courier New";
-	font-size: 2em;
-	font-weight: .5;
-	color: black;
+	font-family: 'Bitter', serif;
+	font-style: italic;
+	color: white;
+	font-size: .9em;
 	text-align: center;
+	display: block;
+	margin: 0 20%;
+	padding-bottom: 40%;
 }
 
-p {
-	font-family: "Courier New";
-	font-size: 1em;
-	color: black;
-	text-align: center;
-	margin-left: 10%;
-	margin-right: 10%;
-}
