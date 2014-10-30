@@ -1,6 +1,6 @@
 
 body {
-	background-color: black;
+	background-color: #282B2C;
 	margin: 0;
 }
 
@@ -18,13 +18,13 @@ h2 {
 	color: white;
 	font-size: 1.2em;
 	text-align: center;
-	line-height: .2;
-
+	line-height: 1.4;
+	margin-top:-14px;
 }
 
 #socialmedia{ 
-	width: 80px;
-	margin: -.2% auto;
+	width: 140px;
+	margin: -17px auto;
 	position: relative;
 }
 
@@ -32,9 +32,12 @@ h2 {
 	float: left;
 }
 
+#twitter{
+	float:left;
+}
+
 .midcontainer {
 	background-color: #CCEBF5;
-
 }
 
 h3 {
@@ -53,9 +56,99 @@ h3 {
 	color: #090A0A;
 	font-size: 1em;
 	text-align: center;
-	display: block;
 	margin: 0 20%;
-	padding-bottom: 30%;
+	padding-bottom: 5%;
+}
+
+.line {
+	border-style: solid;
+	border-color: #090A0A;
+	border-bottom-width: 0;
+	border-left-width: 0;
+	border-right-width: 0;
+	border-top-width: 1px;
+	margin: 0 20%;
 
 }
+
+h4 {
+	font-family: 'Bitter', serif;
+	font-style: italic;
+	color: #090A0A;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+.experience {
+	font-family: 'Bitter', serif;
+	font-style: italic;
+	color: #090A0A;
+	font-size: 1em;
+	line-height: 1.5;
+	text-align: center;
+	display: block;
+	margin: 0 20%;
+	padding-bottom: 2%;
+
+}
+
+.resume {
+	width: 200px;
+	margin: 0 auto;
+	font-family: 'Bitter', serif;
+	color: #090A0A;
+	text-align: center;
+	font-size: .75em;
+	padding-bottom: 5%;
+	line-height: .5;
+}
+
+/*.skills {
+	width: 300px;
+	margin: 0 20%;
+	position: relative;
+	padding-bottom: 20%;
+}*/
+
+/*.skills {
+	width: 550px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.adobeimage {
+	float:left;
+}
+
+.adobe {
+	font-family: 'Bitter', serif;
+	font-style: italic;
+	color: #090A0A;
+	font-size: 1em;
+	padding-bottom:30%;
+}
+*/
+
+/*.adobeimage {
+	width: 60px;
+	margin: -1.9% 0 20% 20%;
+	position: relative;
+	padding-bottom: 20%;
+	float: left;
+}
+
+.adobe {
+	font-family: 'Bitter', serif;
+	font-style: italic;
+	color: #090A0A;
+	font-size: 1em;
+	padding-bottom:30%;
+}
+*/
+
+
+
+
+
+
 
