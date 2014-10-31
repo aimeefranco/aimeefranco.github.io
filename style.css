@@ -113,7 +113,6 @@ table.exptable {
 	font-style: italic;
 	color: #090A0A;
 	border-collapse: collapse;
-	padding-bottom: 25%;
 }
 
 .skilltable th {
@@ -130,7 +129,14 @@ table.exptable {
 }
 
 .skill {
-	padding-bottom:25%;
+	padding-bottom:5%;
+}
+
+footer {
+	background-color:#282B2C;
+	padding: 5%;
+	width: 140px;
+	margin: 0 auto;
 }
 
 
