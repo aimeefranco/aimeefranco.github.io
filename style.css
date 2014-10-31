@@ -67,7 +67,7 @@ h3 {
 	border-left-width: 0;
 	border-right-width: 0;
 	border-top-width: 1px;
-	margin: 0 20%;
+	margin: 0 15%;
 
 }
 
@@ -79,17 +79,20 @@ h4 {
 	text-align: center;
 }
 
-.experience {
+table.exptable {
+	width: 60%;
+	margin: 0 23% 0 23%;
 	font-family: 'Bitter', serif;
 	font-style: italic;
 	color: #090A0A;
 	font-size: 1em;
-	line-height: 1.5;
-	text-align: center;
-	display: block;
-	margin: 0 20%;
-	padding-bottom: 2%;
+	padding-bottom: 3%;
+}
 
+.exptable td:nth-child(1) {
+	text-align: right;
+	padding-right: 3%;
+	padding-bottom: 1%;
 }
 
 .resume {
@@ -99,56 +102,35 @@ h4 {
 	color: #090A0A;
 	text-align: center;
 	font-size: .75em;
-	padding-bottom: 5%;
 	line-height: .5;
+	padding-bottom:4%;
 }
 
-/*.skills {
-	width: 300px;
-	margin: 0 20%;
-	position: relative;
-	padding-bottom: 20%;
-}*/
-
-/*.skills {
-	width: 550px;
+.skilltable {
+	width: 40%;
 	margin: 0 auto;
-	position: relative;
-}
-
-.adobeimage {
-	float:left;
-}
-
-.adobe {
 	font-family: 'Bitter', serif;
 	font-style: italic;
 	color: #090A0A;
+	border-collapse: collapse;
+	padding-bottom: 25%;
+}
+
+.skilltable th {
 	font-size: 1em;
-	padding-bottom:30%;
-}
-*/
-
-/*.adobeimage {
-	width: 60px;
-	margin: -1.9% 0 20% 20%;
-	position: relative;
-	padding-bottom: 20%;
-	float: left;
+	text-align:left;
 }
 
-.adobe {
-	font-family: 'Bitter', serif;
-	font-style: italic;
-	color: #090A0A;
-	font-size: 1em;
-	padding-bottom:30%;
+.skilltable td {
+	font-size: .75em;
 }
-*/
 
+.skilltable tr{
+	border-top: 1px solid;
+}
 
-
-
-
+.skill {
+	padding-bottom:25%;
+}
 
 
