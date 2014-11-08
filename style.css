@@ -1,12 +1,11 @@
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 357px) {
 	 {
 		width: 320px;
-		margin:0;
-		font-size: 2em;
+		font-size: 5em
 		}
 	}
-	
+
 body {
 	background-color: #282B2C;
 	margin: 0;
