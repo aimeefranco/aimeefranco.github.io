@@ -4,6 +4,11 @@
 		font-size: 2em;
 	}
 
+	img {
+		height: 2em;
+		width: 2em;
+	}
+
 body {
 	background-color: #282B2C;
 	margin: 0;
