@@ -1,3 +1,14 @@
+@media only screen and (min-device-width : 320px) and (max-device-width: 568px) and (orientation: portrait) {
+	body {
+		background-width: 320px;
+		font-size: 10em;
+	}
+
+@media only screen and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : portrait) { 
+
+
 body {
 	background-color: #282B2C;
 	margin: 0;
@@ -157,7 +168,7 @@ h4 {
 	color: #090A0A;
 	border-collapse: collapse;
 }
-		@media screen and (max-width: 1000px) {
+		/*@media screen and (max-width: 800px) {
 		.skilltable {
 			width: 65%;
 			margin: 0 auto;
@@ -169,7 +180,7 @@ h4 {
 			margin: 0 auto;
 			border-spacing: 100px;
 			}
-	}
+	}*/
 
 
 .skilltable th {
@@ -183,6 +194,8 @@ h4 {
 
 .skilltable td {
 	font-size: .75em;
+	padding-top: .5em;
+	padding-bottom: .5em;
 }
 
 .skilltable tr{
