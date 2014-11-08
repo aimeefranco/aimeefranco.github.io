@@ -10,17 +10,7 @@
 		position: relative;
 	}
 
-	#linkedin {
-		width: 2em;
-		height: 2em;
-	}
-
-	#mail {
-		width: 2em;
-		height: 2em;
-	}
-
-	#twitter {
+	img {
 		width: 2em;
 		height: 2em;
 	}
