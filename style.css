@@ -5,10 +5,15 @@
 	}
 
 	#socialmedia{ 
-	width: 2em;
-	height: 2em;
-	margin: 0 auto;
-	position: relative;
+		width: 2em;
+		height: 2em;
+		margin: 0 auto;
+		position: relative;
+	}
+
+	img {
+		width: 200%;
+		height: 200%;
 	}
 }
 
