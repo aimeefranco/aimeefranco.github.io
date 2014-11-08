@@ -4,25 +4,25 @@
 		font-size: 2em;
 	}
 
-	img {
-		width: 2em;
-		height: 2em;
-	}
+		#socialmedia { 
+			width: 80px;
+			margin: 0 auto;
+			position: relative;
+		}
 
-	#socialmedia{ 
-		width: 80px;
-		margin: 0 auto;
-		position: relative;
-	}
+		#linkedin {
+			width: 2em;
+			float: left;
+		}
 
-	#linkedin{
-	float: left;
-	}
+		#mail{ 
+			width: 2em;
+			float:left;
+		}
 
-	#mail{
-	float:left;
-}
-
+		#twitter {
+			width: 2em;
+		}
 
 }
 
