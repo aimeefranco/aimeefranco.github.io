@@ -3,14 +3,8 @@ body {
 	background-color: #282B2C;
 	margin: 0;
 }
-	@media screen and (max-width: 320px) {
-		body {
-			width: 100%;
-			margin: 0 auto;
-			font-size: 2em;
-			}
-	}
-ul {
+
+/*ul {
 	display: block;
 	list-style: none;
 	font-family: 'sans-serif';
@@ -26,7 +20,7 @@ a {
 	color: #878f92;
 	font-family: 'Bitter', serif;
 	font-size: .75em;
-}
+} */
 
 h1 {
 	font-family: 'Bitter', serif;
