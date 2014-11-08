@@ -1,14 +1,16 @@
 
+@media screen and (max-width: 320px) {
+	 {
+		width: 320px;
+		margin:0;
+		font-size: 2em;
+		}
+	}
+	
 body {
 	background-color: #282B2C;
 	margin: 0;
 }
-
-	@media screen and (max-width: 320px) {
-		body {
-			width: 320px;
-			}
-	}
 
 /*ul {
 	display: block;
