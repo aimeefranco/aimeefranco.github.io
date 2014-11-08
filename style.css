@@ -4,16 +4,17 @@
 		font-size: 2em;
 	}
 
+	img {
+		width: 2em;
+		height: 2em;
+	}
+
 	#socialmedia{ 
 		width: 320px;
 		margin: 0 auto;
 		position: relative;
 	}
 
-	img {
-		width: 2em;
-		height: 2em;
-	}
 }
 
 body {
