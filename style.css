@@ -11,7 +11,17 @@
 		position: relative;
 	}
 
-	img {
+	#linkedin {
+		width: 2em;
+		height: 2em;
+	}
+
+	#mail {
+		width: 2em;
+		height: 2em;
+	}
+
+	#twitter {
 		width: 2em;
 		height: 2em;
 	}
