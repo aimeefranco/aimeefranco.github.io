@@ -4,6 +4,24 @@ body {
 	margin: 0;
 }
 
+ul {
+	display: block;
+	list-style: none;
+	font-family: 'sans-serif';
+}
+
+li {
+	float:right;
+	padding-right: 3%;
+}
+
+a {
+	text-decoration: none;
+	color: #878f92;
+	font-family: 'Bitter', serif;
+	font-size: .75em;
+}
+
 h1 {
 	font-family: 'Bitter', serif;
 	color: white;
@@ -26,6 +44,10 @@ h2 {
 	width: 140px;
 	margin: -17px auto;
 	position: relative;
+}
+
+a:hover{
+	opacity: .6;
 }
 
 #linkedin{
@@ -79,7 +101,7 @@ h4 {
 	text-align: center;
 }
 
-table.exptable {
+.exptable {
 	width: 60%;
 	margin: 0 25% 0 25%;
 	font-family: 'Bitter', serif;
@@ -88,6 +110,26 @@ table.exptable {
 	font-size: 1em;
 	padding-bottom: 3%;
 }
+
+	@media screen and (max-width: 1000px) {
+		.exptable {
+			width: 80%;
+			margin: 0 15% 0 13%;
+			}
+	}
+		@media screen and (max-width: 755px) {
+		.exptable {
+			width: 80%;
+			margin: 0 10% 0 10%
+			}
+	}
+
+		@media screen and (max-width: 657px) {
+		.exptable td {
+			padding-top: 1em;
+			padding-bottom: 1em;			}
+	}
+
 
 .exptable td:nth-child(1) {
 	text-align: right;
@@ -104,6 +146,7 @@ table.exptable {
 	text-align: center;
 	font-size: .75em;
 	line-height: .5;
+	padding-top:2%;
 	padding-bottom:4%;
 }
 
@@ -115,10 +158,28 @@ table.exptable {
 	color: #090A0A;
 	border-collapse: collapse;
 }
+		@media screen and (max-width: 1000px) {
+		.skilltable {
+			width: 65%;
+			margin: 0 auto;
+			}
+	}
+		@media screen and (max-width: 755px) {
+		.skilltable {
+			width: 80%;
+			margin: 0 auto;
+			border-spacing: 100px;
+			}
+	}
+
 
 .skilltable th {
 	font-size: 1em;
 	text-align:left;
+}
+
+.thword {
+	padding-right: 1.5em;
 }
 
 .skilltable td {
