@@ -3,7 +3,13 @@ body {
 	background-color: #282B2C;
 	margin: 0;
 }
-
+	@media screen and (max-width: 320px) {
+		body {
+			width: 100%;
+			margin: 0 auto;
+			font-size: 2em;
+			}
+	}
 ul {
 	display: block;
 	list-style: none;
