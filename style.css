@@ -9,6 +9,12 @@
 		width: 2em;
 	}
 
+	#socialmedia{ 
+	width: 300px;
+	margin: -17px auto;
+	position: relative;
+}
+
 body {
 	background-color: #282B2C;
 	margin: 0;
