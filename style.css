@@ -64,10 +64,15 @@ h1 {
 	line-height: .8;
 	padding-top: 3%;
 	text-align: center;
-	vertical-align: center;
 	margin-top: 11%;
 	opacity: 100%;
 }
+
+	@media screen and (max-width: 320px) {
+		h1 {
+			vertical-align: middle;
+			}
+	}
 	
 h2 {
 	font-family: 'Bitter', serif;
