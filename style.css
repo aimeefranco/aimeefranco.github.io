@@ -28,6 +28,9 @@
 }*/
 
 body {
+	/*background-image: url("Farm_edit3.jpg");*/
+	background-repeat: no-repeat;
+	background-size: 100%;
 	background-color: #282B2C;
 	margin: 0;
 }
@@ -48,15 +51,21 @@ a {
 	color: #878f92;
 	font-family: 'Bitter', serif;
 	font-size: .75em;
-} */
+} 
+.titleblock {
+	background-color: black;
+	opacity: .2;
+}*/
 
 h1 {
 	font-family: 'Bitter', serif;
 	color: white;
 	font-size: 2.2em;
 	line-height: .8;
+	padding-top: 3%;
 	text-align: center;
-	padding-top: 18%;
+	margin-top: 11%;
+	opacity: 100%;
 }
 	
 h2 {
@@ -72,6 +81,7 @@ h2 {
 	width: 140px;
 	margin: -17px auto;
 	position: relative;
+	padding-bottom: 3%;
 }
 
 a:hover{
@@ -226,8 +236,8 @@ h4 {
 
 footer {
 	background-color:#282B2C;
-	padding: 3%;
-	width: 140px;
+	padding-top: 4%;
+	width: 100%;
 	margin: 0 auto;
 }
 
