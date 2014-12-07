@@ -1,36 +1,78 @@
+/*@media only screen and (min-device-width : 320px) and (max-device-width: 568px) and (orientation: portrait) {
+	body {
+		background-width: 320px;
+		margin: 0;
+		font-size: 2em;
+	}
 
-#titleblock{
-	background-image: url("Farm_edit4.jpg");
+		#socialmedia { 
+			width: 80px;
+			margin: 0 auto;
+			position: relative;
+		}
+
+		#linkedin {
+			width: 2em;
+			float: left;
+		}
+
+		#mail{ 
+			width: 2em;
+			float:left;
+		}
+
+		#twitter {
+			width: 2em;
+		}
+
+}*/
+
+body {
+	/*background-image: url("Farm_edit3.jpg");*/
 	background-repeat: no-repeat;
-	background-position:center;
-	background-attachment:fixed;
-	background-size:cover;
-	min-height:100vh;
+	background-size: 100%;
+	background-color: #282B2C;
+	margin: 0;
 }
+
+/*ul {
+	display: block;
+	list-style: none;
+	font-family: 'sans-serif';
+}
+
+li {
+	float:right;
+	padding-right: 3%;
+}
+
+a {
+	text-decoration: none;
+	color: #878f92;
+	font-family: 'Bitter', serif;
+	font-size: .75em;
+} 
+.titleblock {
+	background-color: black;
+	opacity: .2;
+}*/
 
 h1 {
 	font-family: 'Bitter', serif;
 	color: white;
 	font-size: 2.2em;
 	line-height: .8;
-	padding-top: 12%;
+	padding-top: 3%;
 	text-align: center;
-	margin-top: 0;
+	margin-top: 11%;
 	opacity: 100%;
 }
 
-	@media screen and (max-width: 700px) {
-		h1 {
-			padding-top: 25%;
-			}
-	}
 	@media screen and (max-width: 320px) {
 		h1 {
 			padding-top: 50%;
 			}
 	}
-
-
 	
 h2 {
 	font-family: 'Bitter', serif;
@@ -62,7 +104,6 @@ a:hover{
 
 .midcontainer {
 	background-color: #CCEBF5;
-	background-color: white;
 }
 
 h3 {
@@ -71,7 +112,7 @@ h3 {
 	color: #090A0A;
 	font-size: 1.5em;
 	text-align: center;
-	margin-top: 0;
+	margin-top: 250px;
 	padding-top: 5%;
 }
 
@@ -161,6 +202,20 @@ h4 {
 	color: #090A0A;
 	border-collapse: collapse;
 }
+		/*@media screen and (max-width: 800px) {
+		.skilltable {
+			width: 65%;
+			margin: 0 auto;
+			}
+	}
+		@media screen and (max-width: 755px) {
+		.skilltable {
+			width: 80%;
+			margin: 0 auto;
+			border-spacing: 100px;
+			}
+	}*/
+
 
 .skilltable th {
 	font-size: 1em;
@@ -185,17 +240,9 @@ h4 {
 	padding-bottom:5%;
 }
 
-#socialmedia2 {
-	width: 140px;
-	margin: 0 auto;
-	position: relative;
-	padding-top:1%;
-	padding-bottom:1%;
-}
-
 footer {
 	background-color:#282B2C;
-	background-color:black;
+	padding-top: 4%;
 	width: 100%;
 	margin: 0 auto;
 }
@@ -205,3 +252,4 @@ footer {
 			padding-top: 10%;
 		}
 	}
+
