@@ -29,6 +29,17 @@
 			}
 	}
 
+h4 {
+	font-family: 'Bitter', serif;
+	color: #FCFCFC;
+	font-size: 1.2em;
+	line-height: .8;
+	padding-top: 22%;
+	text-align: center;
+	margin-top: 0;
+	opacity: 100%;
+}
+
 #empty{
 	width:100%;
 	height:50px;
