@@ -7,6 +7,17 @@
 	min-height:100vh;
 }
 
+	@media screen and (max-width: 320px) {
+		#titleblock {
+			background-image: url("Moto.jpg");
+			background-repeat: no-repeat;
+			background-position: center;
+			background-attachment: scroll;
+			background-size: cover;
+			min-height: 100vh;
+			}
+	}
+
 .covertext {
 	font-family: 'Bitter', serif;
 	color: #FCFCFC;
