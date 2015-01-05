@@ -13,9 +13,9 @@
 			background-image: url("Farm_edit4.jpg");
 			background-repeat: no-repeat;
 			background-position: center;
-			background-attachment: none;
+			background-attachment: scroll;
 			background-size: cover;
-			min-height: none;
+			min-height: 100vh;
 			}
 	}
 
