@@ -208,6 +208,13 @@ h4 {
 	text-decoration: none;
 }
 
+	@media screen and (max-width: 320px){
+		.buttonhover{
+			width: 200px;
+			height: 35px;
+		}
+	}
+
 a.buttonhover:hover {
 	background-color: black;
 	opacity: 1;
