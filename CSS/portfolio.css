@@ -96,6 +96,10 @@ a:hover {
 	opacity:.5;
 }
 
+a:active {
+	opacity:.5;
+}
+
 #intext-link {
 	color: blue;
 }
